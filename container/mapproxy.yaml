@@ -1,0 +1,28 @@
+services:
+  tms:
+    use_grid_names: true
+    # origin for /tiles service
+    origin: 'nw'
+
+layers:
+  - name: gb_power
+    title: GB Power
+    sources: [cache]
+
+caches:
+  cache:
+    grids: [webmercator]
+    sources: [mapnik]
+
+sources:
+  mapnik:
+    type: mapnik
+    layers: [11kvohl, 11kvunderground, 132kvohl, 132kvunderground, 33kvohl, 33kvunderground, 66kvohl, 66kvunderground, 11kvgm, 11kvpm, 33kvpm, 33kvgm, 66kvgm, 132kvgm, 132kvpm]
+    transparent: true
+    mapfile: /app/gb_power.xml
+    scale_factor: 2
+
+grids:
+    webmercator:
+        base: GLOBAL_WEBMERCATOR
+        max_res: 0.01
