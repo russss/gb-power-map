@@ -13,7 +13,9 @@ caches:
   cache:
     grids: [webmercator]
     sources: [mapnik]
-    directory: /cache 
+    cache:
+      type: file
+      directory: /cache 
 
 sources:
   mapnik:
