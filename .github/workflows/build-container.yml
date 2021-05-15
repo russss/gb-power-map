@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Build
-        run: docker build . --tag $IMAGE_NAME
+        run: docker build ./container --tag $IMAGE_NAME
       - name: Push image to GitHub Container Registry
         if: github.ref == 'refs/heads/main'
         run: |
