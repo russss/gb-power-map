@@ -12,5 +12,6 @@ COPY mapproxy.yaml /app
 COPY gb_power.xml /app
 COPY config.py /app
 COPY templates /app/templates
+COPY static /app/static
 
 CMD gunicorn -w 4 -b 0.0.0.0:8080 config:application

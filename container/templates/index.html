@@ -38,12 +38,10 @@
         <p>
           This server provides an overlay map using open data of the power network in Great Britain.
           The only open data currently available is for the Western Power Distribution regions.
-        </p>
-        <p>
-        You can use this layer for OpenStreetMap mapping with the following URL (the max zoom level 21 and the recommended attribution is <code>wpd_open_data</code>):
+        You can use this layer for OpenStreetMap mapping with the following URL (the max zoom level is 22 and the recommended attribution is <code>wpd_open_data</code>):
         </p>
         <p><code>
-https://gb-power.russss.dev/tiles/gb_power/webmercator/{z}/{x}/{y}.png
+https://gb-power.russss.dev/tiles/gb_power/webmercator/{zoom}/{x}/{y}.png
         </code></p>
       </div>
       <div id="map" class="row"></div>
@@ -51,14 +49,26 @@ https://gb-power.russss.dev/tiles/gb_power/webmercator/{z}/{x}/{y}.png
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
             integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
             crossorigin=""></script>
+    <script src="{{url_for('static', filename='leaflet-hash.js')}}"></script>
     <script>
-      var map = L.map('map').setView([52.001, -6.58], 7);
+      var map = L.map('map', {
+          minZoom: 7,
+          maxZoom: 22
+      }).setView([52.001, -6.58], 7);
+
+      var hash = new L.Hash(map);
+
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        maxNativeZoom: 19,
+        maxZoom: 22,
+      }
       ).addTo(map);
 
       L.tileLayer('/tiles/gb_power/webmercator/{z}/{x}/{y}.png', {
-        attribution: 'Supported by <a href="https://www.westernpower.co.uk/open-data-licence">WPD Open Data</a>'
+        attribution: 'Supported by <a href="https://www.westernpower.co.uk/open-data-licence">WPD Open Data</a>',
+        maxZoom: 22,
+        detectRetina: true,
       }
       ).addTo(map);
     </script>
