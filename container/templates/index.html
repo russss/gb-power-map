@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GB Power Networks Map</title>
+        <link rel="stylesheet"
+              href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+              integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+              crossorigin=""/>
+        <style>
+          html, body {
+            height: 100%;
+            margin: 0;
+            font-family: Helvetica, sans-serif;
+          }
+
+          blockquote {
+            font-family: monospace;
+          }
+
+          body {
+            display: flex;
+            flex-direction: column;
+            background-color: #eee;
+          }
+
+          #intro {
+            margin: 5px;
+          }
+          #map {
+            flex: 1;
+          }
+        </style>
+    </head>
+    <body>
+      <div id="intro" class="row">
+        <p>
+          This server provides an overlay map using open data of the power network in Great Britain.
+          The only open data currently available is for the Western Power Distribution regions.
+        </p>
+        <p>
+        You can use this layer for OpenStreetMap mapping with the following URL (the max zoom level 21 and the recommended attribution is <code>wpd_open_data</code>):
+        </p>
+        <p><code>
+https://gb-power.russss.dev/tiles/gb_power/webmercator/{z}/{x}/{y}.png
+        </code></p>
+      </div>
+      <div id="map" class="row"></div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+            integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+            crossorigin=""></script>
+    <script>
+      var map = L.map('map').setView([52.001, -6.58], 7);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}
+      ).addTo(map);
+
+      /*
+      L.tileLayer('/tiles/gb_power/webmercator/{z}/{x}/{y}.png', {
+        attribution: '&copy; Supported by <a href="https://www.westernpower.co.uk/open-data-licence">WPD Open Data</a>'
+      }
+      ).addTo(map);
+      */
+    </script>
+    </body>
+</html>
