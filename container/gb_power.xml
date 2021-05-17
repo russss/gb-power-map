@@ -21,7 +21,7 @@
       <LineSymbolizer stroke="#0065b8" stroke-width="1.3" />
     </Rule>
   </Style>
-  <Layer name="11kvohl" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999601272 +x_0=400000 +y_0=-100000 +datum=OSGB36 +units=m +no_defs">
+  <Layer name="11kvohl" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +nadgrids=/app/OSTN15_NTv2_OSGBtoETRS.gsb +bounds=-9,49,2,61 +no_defs">
     <StyleName><![CDATA[11kvohl]]></StyleName>
     <Datasource>
       <Parameter name="file"><![CDATA[./layers/11kv_ohl.shp]]></Parameter>
@@ -34,7 +34,7 @@
       <LineSymbolizer stroke="#0065b8" stroke-dasharray="4, 2" stroke-width="1.3" />
     </Rule>
   </Style>
-  <Layer name="11kvunderground" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999601272 +x_0=400000 +y_0=-100000 +datum=OSGB36 +units=m +no_defs">
+  <Layer name="11kvunderground" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +nadgrids=/app/OSTN15_NTv2_OSGBtoETRS.gsb +bounds=-9,49,2,61 +no_defs">
     <StyleName><![CDATA[11kvunderground]]></StyleName>
     <Datasource>
       <Parameter name="file"><![CDATA[./layers/11kv_underground.shp]]></Parameter>
@@ -47,7 +47,7 @@
       <LineSymbolizer stroke="#b55d00" stroke-width="2" />
     </Rule>
   </Style>
-  <Layer name="132kvohl" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999601272 +x_0=400000 +y_0=-100000 +datum=OSGB36 +units=m +no_defs">
+  <Layer name="132kvohl" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +nadgrids=/app/OSTN15_NTv2_OSGBtoETRS.gsb +bounds=-9,49,2,61 +no_defs">
     <StyleName><![CDATA[132kvohl]]></StyleName>
     <Datasource>
       <Parameter name="file"><![CDATA[./layers/132kv_ohl.shp]]></Parameter>
@@ -60,7 +60,7 @@
       <LineSymbolizer stroke="#b55d00" stroke-dasharray="4, 2" stroke-width="2" />
     </Rule>
   </Style>
-  <Layer name="132kvunderground" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999601272 +x_0=400000 +y_0=-100000 +datum=OSGB36 +units=m +no_defs">
+  <Layer name="132kvunderground" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +nadgrids=/app/OSTN15_NTv2_OSGBtoETRS.gsb +bounds=-9,49,2,61 +no_defs">
     <StyleName><![CDATA[132kvunderground]]></StyleName>
     <Datasource>
       <Parameter name="file"><![CDATA[./layers/132kv_underground.shp]]></Parameter>
@@ -73,7 +73,7 @@
       <LineSymbolizer stroke="#00b500" stroke-width="1.5" />
     </Rule>
   </Style>
-  <Layer name="33kvohl" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999601272 +x_0=400000 +y_0=-100000 +datum=OSGB36 +units=m +no_defs">
+  <Layer name="33kvohl" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +nadgrids=/app/OSTN15_NTv2_OSGBtoETRS.gsb +bounds=-9,49,2,61 +no_defs">
     <StyleName><![CDATA[33kvohl]]></StyleName>
     <Datasource>
       <Parameter name="file"><![CDATA[./layers/33kv_ohl.shp]]></Parameter>
@@ -86,7 +86,7 @@
       <LineSymbolizer stroke="#00b500" stroke-dasharray="4, 2" stroke-width="1.5" />
     </Rule>
   </Style>
-  <Layer name="33kvunderground" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999601272 +x_0=400000 +y_0=-100000 +datum=OSGB36 +units=m +no_defs">
+  <Layer name="33kvunderground" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +nadgrids=/app/OSTN15_NTv2_OSGBtoETRS.gsb +bounds=-9,49,2,61 +no_defs">
     <StyleName><![CDATA[33kvunderground]]></StyleName>
     <Datasource>
       <Parameter name="file"><![CDATA[./layers/33kv_underground.shp]]></Parameter>
@@ -99,7 +99,7 @@
       <LineSymbolizer stroke="#b59d00" stroke-width="1.5" />
     </Rule>
   </Style>
-  <Layer name="66kvohl" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999601272 +x_0=400000 +y_0=-100000 +datum=OSGB36 +units=m +no_defs">
+  <Layer name="66kvohl" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +nadgrids=/app/OSTN15_NTv2_OSGBtoETRS.gsb +bounds=-9,49,2,61 +no_defs">
     <StyleName><![CDATA[66kvohl]]></StyleName>
     <Datasource>
       <Parameter name="file"><![CDATA[./layers/66kv_ohl.shp]]></Parameter>
@@ -112,7 +112,7 @@
       <LineSymbolizer stroke="#b59d00" stroke-dasharray="4, 2" stroke-width="1.5" />
     </Rule>
   </Style>
-  <Layer name="66kvunderground" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999601272 +x_0=400000 +y_0=-100000 +datum=OSGB36 +units=m +no_defs">
+  <Layer name="66kvunderground" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +nadgrids=/app/OSTN15_NTv2_OSGBtoETRS.gsb +bounds=-9,49,2,61 +no_defs">
     <StyleName><![CDATA[66kvunderground]]></StyleName>
     <Datasource>
       <Parameter name="file"><![CDATA[./layers/66kv_underground.shp]]></Parameter>
@@ -137,7 +137,7 @@
       <TextSymbolizer dy="-10" face-name="Open Sans Regular" halo-fill="#fefefe" halo-radius="2" placement-type="simple"><![CDATA[[siteName]+'\n'+[voltage]]]></TextSymbolizer>
     </Rule>
   </Style>
-  <Layer name="11kvgm" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999601272 +x_0=400000 +y_0=-100000 +datum=OSGB36 +units=m +no_defs">
+  <Layer name="11kvgm" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +nadgrids=/app/OSTN15_NTv2_OSGBtoETRS.gsb +bounds=-9,49,2,61 +no_defs">
     <StyleName><![CDATA[11kvgm]]></StyleName>
     <StyleName><![CDATA[11kvgm-ref]]></StyleName>
     <Datasource>
@@ -163,7 +163,7 @@
       <TextSymbolizer dy="-10" face-name="Open Sans Regular" halo-fill="#fefefe" halo-radius="2" placement-type="simple"><![CDATA[[siteName]+'\n'+[voltage]]]></TextSymbolizer>
     </Rule>
   </Style>
-  <Layer name="11kvpm" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999601272 +x_0=400000 +y_0=-100000 +datum=OSGB36 +units=m +no_defs">
+  <Layer name="11kvpm" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +nadgrids=/app/OSTN15_NTv2_OSGBtoETRS.gsb +bounds=-9,49,2,61 +no_defs">
     <StyleName><![CDATA[11kvpm]]></StyleName>
     <StyleName><![CDATA[11kvpm-ref]]></StyleName>
     <Datasource>
@@ -195,7 +195,7 @@
       <TextSymbolizer dy="-10" face-name="Open Sans Regular" halo-fill="#fefefe" halo-radius="2" placement-type="simple"><![CDATA[[siteName]+'\n'+[voltage]]]></TextSymbolizer>
     </Rule>
   </Style>
-  <Layer name="33kvpm" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999601272 +x_0=400000 +y_0=-100000 +datum=OSGB36 +units=m +no_defs">
+  <Layer name="33kvpm" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +nadgrids=/app/OSTN15_NTv2_OSGBtoETRS.gsb +bounds=-9,49,2,61 +no_defs">
     <StyleName><![CDATA[33kvpm]]></StyleName>
     <StyleName><![CDATA[33kvpm-ref]]></StyleName>
     <Datasource>
@@ -227,7 +227,7 @@
       <TextSymbolizer dy="-10" face-name="Open Sans Regular" halo-fill="#fefefe" halo-radius="2" placement-type="simple"><![CDATA[[siteName]+'\n'+[voltage]]]></TextSymbolizer>
     </Rule>
   </Style>
-  <Layer name="33kvgm" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999601272 +x_0=400000 +y_0=-100000 +datum=OSGB36 +units=m +no_defs">
+  <Layer name="33kvgm" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +nadgrids=/app/OSTN15_NTv2_OSGBtoETRS.gsb +bounds=-9,49,2,61 +no_defs">
     <StyleName><![CDATA[33kvgm]]></StyleName>
     <StyleName><![CDATA[33kvgm-ref]]></StyleName>
     <Datasource>
@@ -259,7 +259,7 @@
       <TextSymbolizer dy="-10" face-name="Open Sans Regular" halo-fill="#fefefe" halo-radius="2" placement-type="simple"><![CDATA[[siteName]+'\n'+[voltage]]]></TextSymbolizer>
     </Rule>
   </Style>
-  <Layer name="66kvgm" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999601272 +x_0=400000 +y_0=-100000 +datum=OSGB36 +units=m +no_defs">
+  <Layer name="66kvgm" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +nadgrids=/app/OSTN15_NTv2_OSGBtoETRS.gsb +bounds=-9,49,2,61 +no_defs">
     <StyleName><![CDATA[66kvgm]]></StyleName>
     <StyleName><![CDATA[66kvgm-ref]]></StyleName>
     <Datasource>
@@ -291,7 +291,7 @@
       <TextSymbolizer dy="-10" face-name="Open Sans Regular" halo-fill="#fefefe" halo-radius="2" placement-type="simple"><![CDATA[[siteName]+'\n'+[voltage]]]></TextSymbolizer>
     </Rule>
   </Style>
-  <Layer name="132kvgm" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999601272 +x_0=400000 +y_0=-100000 +datum=OSGB36 +units=m +no_defs">
+  <Layer name="132kvgm" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +nadgrids=/app/OSTN15_NTv2_OSGBtoETRS.gsb +bounds=-9,49,2,61 +no_defs">
     <StyleName><![CDATA[132kvgm]]></StyleName>
     <StyleName><![CDATA[132kvgm-ref]]></StyleName>
     <Datasource>
@@ -323,7 +323,7 @@
       <TextSymbolizer dy="-10" face-name="Open Sans Regular" halo-fill="#fefefe" halo-radius="2" placement-type="simple"><![CDATA[[siteName]+'\n'+[voltage]]]></TextSymbolizer>
     </Rule>
   </Style>
-  <Layer name="132kvpm" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999601272 +x_0=400000 +y_0=-100000 +datum=OSGB36 +units=m +no_defs">
+  <Layer name="132kvpm" srs="+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +nadgrids=/app/OSTN15_NTv2_OSGBtoETRS.gsb +bounds=-9,49,2,61 +no_defs">
     <StyleName><![CDATA[132kvpm]]></StyleName>
     <StyleName><![CDATA[132kvpm-ref]]></StyleName>
     <Datasource>

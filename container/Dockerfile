@@ -8,6 +8,7 @@ RUN pip3 install MapProxy pyproj gunicorn flask
 
 RUN mkdir /app
 WORKDIR /app
+COPY OSTN15_NTv2_OSGBtoETRS.gsb /app
 COPY mapproxy.yaml /app
 COPY gb_power.xml /app
 COPY config.py /app
